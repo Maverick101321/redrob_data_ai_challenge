@@ -2,7 +2,7 @@
 .DS_Store
 
 # Full candidate dataset (~465MB; download separately via challenge Google Drive link)
-India_runs_data_and_ai_challenge/candidates.jsonl
+candidates.jsonl
 
 # Filled submission metadata contains personal contact info (emails, phone)
 submission_metadata.yaml
