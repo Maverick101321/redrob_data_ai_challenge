@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Large datasets
+candidates.jsonl
+candidates.jsonl.gz
+
+# Filled submission metadata (contains personal info)
+submission_metadata.yaml
+
+# Outputs
+*.csv
+!India_runs_data_and_ai_challenge/sample_submission.csv
+!India_runs_data_and_ai_challenge/submission.csv
+
+# Large embeddings
+India_runs_data_and_ai_challenge/redrob-ranker/embeddings/candidate_embeddings.npy
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+*.swp
+*~
