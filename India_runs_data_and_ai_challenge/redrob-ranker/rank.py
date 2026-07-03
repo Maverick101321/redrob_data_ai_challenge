@@ -172,8 +172,8 @@ def rank_candidates(
     print(f"  Incoherent titles penalised: {incoherent_count}")
     print(f"  Remaining candidates: {len(scored)}")
 
-    # Sort by composite descending
-    scored.sort(key=lambda x: x["composite_score"], reverse=True)
+    # Sort by composite descending (rounded to 4 decimals to match CSV), then candidate_id ascending for ties
+    scored.sort(key=lambda x: (-round(x["composite_score"], 4), x["candidate_id"]))
     return scored
 
 
