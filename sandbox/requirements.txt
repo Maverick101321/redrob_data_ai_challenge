@@ -1,0 +1,4 @@
+gradio
+sentence-transformers
+numpy
+pandas
